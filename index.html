@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogin</title>
+</head>
+
+<body>
+    <!-- Continue Reading Modal -->
+    <div class="modal-container">
+        <button class="close-modal">✖</button>
+        <div class="modal-content">
+            <h1>Article</h1>
+            <img class="img-modal" src="https://www.flaticon.com/svg/static/icons/svg/2913/2913782.svg" alt="cookies-img" />
+            <p class="txt-modal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magni, officia alias facilis iste id, rerum error, facere sunt distinctio laboriosam sed repudiandae cum. Sapiente iste asperiores ab hic quod!</p>
+            <button class="accept-modal">move to full article</button>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container container flex">
+            <div class="logo-container flex">
+                <span class="logo-txt">Blogin<span class="logo-dot">.</span></span>
+            </div>
+            <nav class="main-nav flex">
+                <ul>
+                    <li><a href="">Journal</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn-menu" hidden>
+                <img class="menu-svg" src="bars-solid.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <main class="main-container container flex">
+        <article class="art-container flex">
+            <img class="img-card" src="train.jpeg" alt="">
+            <div class="secondary-container">
+                <div class="title-card">Article1<br>Article1</div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quaerat,
+                    sequi
+                    ex ea, esse
+                    repellendus provident
+                    sit corrupti rem delectus
+                </p>
+                <p>
+                    sit corrupti rem delectus voluptatum earum fuga inventore optio, maxime eveniet
+                    illumfacere.
+                </p>
+                <div><button class="btn-card" onclick="openModal()">Continue Reading</button></div>
+            </div>
+        </article>
+        <article class="art-container flex">
+            <img class="img-card" src="greenfield.jpeg" alt="">
+            <div class="secondary-container">
+                <div class="title-card">Article2<br>Article2</div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quaerat, nam
+                    sequi
+                    ex ea, esse
+                    repellendus provident
+                    sit corrupti rem delectus
+                </p>
+                <p>
+                    sit corrupti rem delectus voluptatum earum fuga inventore optio, maxime eveniet
+                    illumfacere.
+                </p>
+                <div><button class="btn-card" onclick="openModal()">Continue Reading</button></div>
+        </article>
+        <article class="art-container flex">
+            <img class="img-card" src="field.jpeg" alt="">
+            <div class="secondary-container">
+                <div class="title-card">Article3<br>Article3</div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quaerat,
+                    sequi
+                    ex ea, esse
+                    repellendus provident
+                    sit corrupti rem delectus
+                </p>
+                <p>
+                    sit corrupti rem delectus voluptatum earum fuga inventore optio, maxime eveniet
+                    illumfacere.
+                </p>
+                <div><button class="btn-card" onclick="openModal()">Continue Reading</button></div>
+        </article>
+    </main>
+
+    <section class="container">
+        <ul class="pagination-body flex">
+            <li><a href="#">← Previous</a></li>
+            <li><a href="#">Next →</a></li>
+        </ul>
+    </section>
+
+    <footer class="footer-container flex">
+        <div class="footer-body container flex">
+            <div class="footer-logo logo-txt">Blogin<span class="logo-dot">.</span></div>
+            <p class="footer-rights">© 2021 Blogin.com - All Rights Reserved - Find more free Templates at
+                <a class="pixel-link" href="">Pixelhint.com</a>
+            </p>
+            <ul class="references-btns">
+                <li><a class="fa facebook" href="#"></a></li>
+                <li><a class="fa twitter" href="#"></a></li>
+                <li><a class="fa insta" href="#"></a></li>
+                <li><a class="fa linkedin" href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
